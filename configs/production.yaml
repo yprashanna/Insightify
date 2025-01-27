@@ -1,0 +1,18 @@
+# configs/production.yaml
+
+database:
+  host: production-db-host
+  port: 27017
+  name: insightify_prod
+
+server:
+  host: 0.0.0.0
+  port: 80
+  debug: false
+
+secret_key: 'your-production-secret-key'
+
+logging:
+  level: ERROR
+  handlers: [file]
+  file: logs/production.log

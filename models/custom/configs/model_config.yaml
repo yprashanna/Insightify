@@ -1,0 +1,20 @@
+# models/custom/configs/model_config.yaml
+
+model:
+  type: 'CustomModel'
+  hidden_size: 768
+  num_attention_heads: 12
+  num_hidden_layers: 12
+  hidden_dropout_prob: 0.1
+  attention_probs_dropout_prob: 0.1
+
+tokenizer:
+  type: 'BertTokenizer'
+  vocab_size: 30522
+
+special_tokens:
+  pad_token: '[PAD]'
+  unk_token: '[UNK]'
+  cls_token: '[CLS]'
+  sep_token: '[SEP]'
+  mask_token: '[MASK]'
