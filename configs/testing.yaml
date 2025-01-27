@@ -1,0 +1,18 @@
+# configs/testing.yaml
+
+database:
+  host: localhost
+  port: 27017
+  name: insightify_test
+
+server:
+  host: localhost
+  port: 8001
+  debug: false
+
+secret_key: 'your-testing-secret-key'
+
+logging:
+  level: WARNING
+  handlers: [console, file]
+  file: logs/testing.log

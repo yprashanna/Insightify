@@ -1,0 +1,18 @@
+# configs/development.yaml
+
+database:
+  host: localhost
+  port: 27017
+  name: insightify_dev
+
+server:
+  host: localhost
+  port: 8000
+  debug: true
+
+secret_key: 'your-development-secret-key'
+
+logging:
+  level: DEBUG
+  handlers: [console, file]
+  file: logs/development.log
