@@ -1,0 +1,13 @@
+{
+  "model_name": "facebook/bart-large-cnn",
+  "max_length": 150,
+  "min_length": 40,
+  "do_sample": false,
+  "early_stopping": true,
+  "num_beams": 4,
+  "temperature": 1.0,
+  "top_k": 50,
+  "top_p": 0.95,
+  "length_penalty": 2.0,
+  "repetition_penalty": 1.0
+}
