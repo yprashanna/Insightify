@@ -1,0 +1,19 @@
+# models/custom/configs/train_config.yaml
+
+training:
+  batch_size: 16
+  num_epochs: 5
+  learning_rate: 3e-5
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  warmup_steps: 500
+  logging_steps: 100
+  evaluation_strategy: 'steps'
+
+data:
+  train_file: data/processed/train_data.csv
+  eval_file: data/processed/eval_data.csv
+
+model:
+  model_name_or_path: 'bert-base-uncased'
+  output_dir: 'outputs/'
