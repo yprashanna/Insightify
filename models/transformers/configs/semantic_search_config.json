@@ -1,7 +1,5 @@
 {
-  "model_name": "sentence-transformers/all-mpnet-base-v2",
+  "model_name": "placeholder_model",
   "embedding_dimension": 768,
-  "similarity_metric": "cosine",
-  "index_method": "faiss",
-  "faiss_index_type": "Flat"
+  "similarity_metric": "cosine"
 }
